@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #182C61; 
+    color: #fff;
+}
+
+.banner{
+    position: relative;
+    padding: 190px 0px;
+}
+
+.navbar{
+    padding-left: 10em;
+    padding-right: 10em;
+    
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.navbar-brand span{
+    color: orange;
+}
+
+ul.navbar-nav li a.nav-link{
+    color: #ffffff !important;
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+
+ul.navbar-nav li a.nav-link:hover{
+    color:orange !important;
+}
+
+ul.navbar-nav li.active a.nav-link{
+    color: orange !important;
+    transition: all.3s;
+}
+
+.shrimk{
+    background: #fff !important;
+}
+
+
+.header .navbar{
+    background-color: transparent !important;
+}
+
+
+.banner h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.header img{
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.header h2{
+    color: aqua;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.header p{
+    text-align: center;
+}
+
+.downloapCV{
+    color: aqua;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 575.98px) { 
+
+    .head{
+        padding: 2em 0;
+    }
+    .head h1{
+        font-size: 1.9em;
+    }
+    img{
+        width: 100px;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+    }
+    .head h2{
+        font-size: 1.4em;
+        margin-top: 0px !important;
+    
+    }
+
+    .head p{
+        text-align: justify;
+        padding: 5px 24px 0 24px;
+        text-align: 14px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    
+
+}
+
+
+
